@@ -402,9 +402,11 @@ source {
     text-transform: uppercase;
 }
 .header-text h3 {
-    color: #2C3E50;
+    /* color: #2C3E50; */
+    color: #ff724c;
     font-size: 20px;
     text-transform: uppercase;
+
 }
 .type h2 {
     font-size: 72px;
@@ -481,15 +483,7 @@ source {
     margin: 0% 5% 0% 5%;
 }
 
-/* .section-title {
-    padding: 30px;
-    margin: 0% 5% 0% 5%;
-    color: #000;
-} */
-#aboutimage {
-    width: 200px;
-    height: 200px;;
-}
+
 .about .equal {
     display: flex;
     margin: 0 auto;
