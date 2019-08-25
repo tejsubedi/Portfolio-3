@@ -526,3 +526,4 @@ Author: coder_hunt
       requestAnimationFrame(update);
     
 })(jQuery);
+

@@ -87,6 +87,7 @@
                                     <ul class="nav navbar-nav">
                                         <li class="active smooth-menu"><a href="#home">Home</a></li>
                                         <li class="smooth-menu"><a href="#about">about</a></li>
+                                        <li class="smooth-menu"><a href="#service">skills</a></li>
                                         <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
                                         <li class="smooth-menu"><a href="#resume">resume</a></li>
                                         <!-- <li class="smooth-menu"><a href="#blog">blog</a></li>-->
@@ -163,21 +164,76 @@
                 </div> <!-- End of About Column -->
             </div> <!-- End of About Row -->
         </div> <!-- End of About Section -->
-        <!-- Fun-facts Section Start -->
-        <div id="fun-facts" class="fun-facts parallax">
-                <!-- Fun-facts Container Start -->
-                <div class="container">
-                    <!-- Fun-facts Row Start -->
-                    <div class="row">
-                        <!-- Fun-facts Column Start -->
-
-                    </div> <!-- End of Fun Facts Row -->
-                    <div class="row">
-                            <!-- Fun-facts Column Start -->
-                    </div> <!-- End of Fun Facts Row -->
-                        
-                </div> <!-- End of Fun Facts Container -->
-            </div> <!-- End of Fun Facts Section -->
+       
+        <!-- Start Service Section -->
+        <div id="service" class="service">
+            <!-- Start Service Container -->
+            <div class="container">
+                <!-- Start Service Section Title -->
+                <div class="section-title text-center">
+                    <h3>technical skills</h3>
+                </div> <!-- End of Service Section Title -->
+                <!-- Start Service Item -->
+                <div class="service-items owl-pagination">
+                    <!-- Start Single Service 01 
+                        <div class="single-service">
+                            <i class="fa fa-laptop"></i>
+                            <h5>branding</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel corporis, architecto adipisci id praesentium!</p>
+                        </div>  End of Single Service 01 -->
+                    <!-- Start Single Service 02 
+                        <div class="single-service">
+                            <i class="fa fa-picture-o"></i>
+                            <h5>infographic</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel corporis, architecto adipisci id praesentium!</p>
+                        </div> End of Single Service 02 -->
+                    <!-- Start Single Service 03 
+                        <div class="single-service">
+                            <i class="fa fa-codepen"></i>
+                            <h5>3d animation</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel corporis, architecto adipisci id praesentium!</p>
+                        </div>  End of Single Service 03 -->
+                    <!-- Start Single Service 04 -->
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>Programming Languages</h5>
+                        <p>HTML, CSS, Java, C# ASP.NET, Swift,PHP, Python </p>
+                    </div> <!-- End of Single Service 04 -->
+                    <!-- Start Single Service 05 -->
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>Scripting Languages</h5>
+                        <p>JavaScript</p>
+                    </div> <!-- End of Single Service 05 -->
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>Operating Systems</h5>
+                        <p>Linux, Windows XP, Mac OS</p>
+                    </div> <!-- End of Single Service 04 -->
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>Frameworks & Libraries</h5>
+                        <p>Angular7 & Reactjs</p>
+                    </div> <!-- End of Single Service 04 -->  
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>ETL Tools</h5>
+                        <p>Microsoft Visual Studio 2017</p>
+                    </div> <!-- End of Single Service 04 -->  
+                    <div class="single-service">
+                        <i class="fa fa-code"></i>
+                        <h5>RDBMS/DBMS</h5>
+                        <p>SQL Server, Mongo DB, MySQL</p>
+                    </div> <!-- End of Single Service 04 -->  
+                    <!-- Start Single Service 06
+                        <div class="single-service">
+                            <i class="fa fa-camera"></i>
+                            <h5>photography</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem vel corporis, architecto adipisci id praesentium!</p>
+                        </div>  End of Single Service 06 -->
+                </div> <!-- End of Service Item -->
+            </div> <!-- End of Service Container -->
+        </div> <!-- End of Service Section -->
 
         <!-- Portfolio Section Start -->
         <div class="portfolio" id="portfolio">
@@ -614,7 +670,7 @@
                                 <!-- Start Resume Info 03 -->
                                 <div class="resume-info">
                                     <div class="single-info">
-                                        <h4>Bachelor of Management</h4>
+                                        <h4>Bachelor's Degree in Management</h4>
                                         <span class="info-title">Tribhuvan University</span>
                                         <span>1999 - 2002</span>
                                         <p>Business Studies
@@ -662,7 +718,7 @@
                                         <!-- Contact Address Column Start -->
                                         <div class="col-md-4 col-sm-4 col-xs-12">
                                             <!-- Single Contact Address Start -->
-                                            <div class="single-address-link text-center">
+                                            <div class="single-address-link text-center email">
                                                 <i class="fa fa-envelope"></i>
                                                 <p>tejsubedi@gmail.com</p>
                                             </div> <!-- End of Single Contact Address -->
@@ -680,22 +736,22 @@
 
                                 <!-- Start Form -->
                                 <div class="form">
-                                    <!-- <form action="#" method="post">
+                                    <form action="https://formspree.io/tejsubedi@gmail.com" method="post">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" placeholder="name">
+                                                <input type="text" id="fname" name="name" placeholder="Your name.." />
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="email" placeholder="email">
+                                                <input type="text" id="email" name="email" placeholder="Your email address.." />
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                                <textarea cols="20" rows="5" placeholder="message ..."></textarea>
+                                                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12">
                                                 <input type="submit" value="lets talk">
                                             </div>
                                         </div>
-                                    </form> -->
+                                    </form>
                                 </div> <!-- End of Form -->
                             </div> <!-- End of Contact Form -->
                         </div> <!-- End of Contact Form Column -->
@@ -788,6 +844,7 @@
     <script src="assets/js/app.js"></script>
     <!-- Main Js -->
     <script src="assets/js/main.js"></script>
+
 
 </body>
 
