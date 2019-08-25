@@ -480,12 +480,17 @@ source {
 .about .equal {
     display: flex;
     margin: 0 auto;
+    /* background-image: url('assets/images/portfolio/mypic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000; */
 }
 .about .flex-col {
     flex: 2;
 }
 .about .about-content {
-    padding: 5%;
+    padding: 5px;
 }
 .about .about-content p {
     margin-top: 15px;
