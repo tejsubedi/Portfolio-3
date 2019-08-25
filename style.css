@@ -52,7 +52,7 @@ body {
     line-height: 1.8;
 }
 header {
-    background-color: #00ACED;
+    background: url('./assets/images/portfolio/tej_pic.jpg');
 }
 a,
 a:hover,
@@ -473,6 +473,19 @@ source {
     padding: 60px 0;
     /* color: white; */
 }
+
+.about_body{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0% 5% 0% 5%;
+}
+
+/* .section-title {
+    padding: 30px;
+    margin: 0% 5% 0% 5%;
+    color: #000;
+} */
 #aboutimage {
     width: 200px;
     height: 200px;;
@@ -487,7 +500,7 @@ source {
     color: #000; */
 }
 .about .flex-col {
-    flex: 2;
+    flex: 4;
 }
 .about .about-content {
     padding: 5px;
