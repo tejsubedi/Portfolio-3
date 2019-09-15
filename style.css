@@ -752,8 +752,14 @@ source {
     text-align: center;
     padding: 25px 30px 30px;
 }
-.portfolio .portfolio-items .single-portfolio .portfolio-content h6 a {
+.portfolio .portfolio-items .single-portfolio .portfolio-content h6 a  {
     color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.portfolio .portfolio-items .single-portfolio .portfolio-content .port a  {
+    color: #ff724c;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0;
